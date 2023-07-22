@@ -1,0 +1,41 @@
+
+22/07/2023
+
+-> container is concept and docker is tool for container concept
+
+-> docker run command - docker run -it -v D:\proj:/usr/src/myapp openjdk:11 /bin/bash
+
+	-> it
+	-> -v -> volume
+	-> /bin/bash -> for using which terminal
+
+
+F:\Himanhsu Data\pract docker
+
+Commands 
+
+Image
+docker images -> show all images
+docker image ls
+ remove image
+docker rmi <Id>
+
+Container
+docker ps - > list running containers
+docker ps -a -> list all containers
+docker run <image name>
+docker start
+docker restart
+docker stop <id>
+
+Log/information regarding container
+
+docker inspect <container name/id>
+docker logs
+
+
+Volume Mapping
+ it is called as persistant Data
+
+not giving 'it' then
+ docker exec <id> /bin/bash
