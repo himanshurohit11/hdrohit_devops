@@ -39,3 +39,25 @@ Volume Mapping
 
 not giving 'it' then
  docker exec <id> /bin/bash
+
+---------------------------------------------
+Docker Networking
+
+Network Details
+--------------
+
+docker network inspect <docker name>	
+
+Create Network
+--------------
+
+docker network create -driver bridge <docker name>
+
+Network Driver
+-----------------------
+
+Docker compose pending
+
+https://github.com/hkshitesh/RestJpaRepo -> practice file
+https://github.com/hkshitesh/RestJpaRepo.git
+
