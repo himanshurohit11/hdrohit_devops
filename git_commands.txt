@@ -3,3 +3,4 @@ Importanat for GIT
 26/07/2023
 -> set remote repo for git using command
 	- git remote add <branch name> <url>
+-> remote is branch which we can set and push and pull from that
