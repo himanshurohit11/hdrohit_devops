@@ -1,0 +1,2 @@
+-> jenkins file from github
+https://github.com/hkshitesh/gfg-b6-maven/blob/master/Jenkinsfile
